@@ -15,6 +15,8 @@ def main():
 def mode(function, x, y): 
     if function == 'add':
         return add(x, y)
+    elif function == 'exp':
+        return exponent(x,y)
    # add code for testing what function should be called
     return #answer
 
@@ -33,6 +35,12 @@ def multiply(x, y):
 def divide(x, y):
     # add code here
     return #answer
+    
+def exponent(x,y):
+    number = 1
+    for pool in range(0, int(y)):
+        number = x * number
+    return number
     
 if __name__ == "__main__":
     main()

@@ -1,0 +1,6 @@
+please finish all the other functions
+
+don't implement multiplication using *, but instead use addition with a for loop.
+
+also, make your program run forever until someone types exit
+

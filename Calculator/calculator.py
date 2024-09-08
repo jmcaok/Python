@@ -17,6 +17,8 @@ def mode(function, x, y):
         return add(x, y)
     elif function == 'exp':
         return exponent(x,y)
+    elif function == 'exit':
+        exit(0)
    # add code for testing what function should be called
     return #answer
 

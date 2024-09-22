@@ -17,8 +17,14 @@ def mode(function, x, y):
         return add(x, y)
     elif function == 'exp':
         return exponent(x,y)
-    elif function == 'exit':
-        exit(0)
+    elif function == 'div':
+        return divide(x,y)
+    elif function == 'sub':
+        return subtract(x,y)
+    elif function == 'mult':
+        return multiply(x,y)
+    elif function == 'per':
+        return percent(x)
    # add code for testing what function should be called
     return #answer
 

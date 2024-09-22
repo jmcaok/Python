@@ -1,6 +1,3 @@
-please finish all the other functions
+now i want you to perfect calculator
 
-don't implement multiplication using *, but instead use addition with a for loop.
-
-also, make your program run forever until someone types exit
-
+when in percentage mode, the program should only ask for one number not two

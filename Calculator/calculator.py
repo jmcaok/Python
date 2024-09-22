@@ -28,7 +28,8 @@ def add(x, y):
 
 def  subtract(x, y):
     # add code here
-    return #answer
+    
+    return x-y
 
 def multiply(x, y):
     # add code here

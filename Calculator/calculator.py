@@ -36,7 +36,14 @@ def multiply(x, y):
 
 def divide(x, y):
     # add code here
-    return #answer
+    if y == 0:
+       print("Error: can not divide by 0")  
+       return
+    return x/y
+
+def percent(x):
+    # percent functionality for adding
+    return x/100
     
 def exponent(x,y):
     number = 1

@@ -1,2 +1,8 @@
 creat leapyear program
-1. if given year is leap year, print year is a leap year                            
+1. if given year is leap a year, print year is a leap year
+2. if given year is not a leap year, print year is not a leap year
+
+how to check leap year:
+if the year is div by 100 then it is only a leap year if it is div  by 400
+years that are not div by 100 but div by 4 are leap years
+then any other year not a leap year

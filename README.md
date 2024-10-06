@@ -393,7 +393,7 @@ Loops allow us to do repetitive executions with less code.
 
 ### For loop
 
-The for loop repeats over a specified interval, with set increments or decrements.
+The `for` loop repeats over a specified interval, with set increments or decrements.
 
 The structure of a for loop is:
 
@@ -424,3 +424,39 @@ The output is:
 Notice how 5 isn't printed?
 
 This is because the `range` function goes from `start` to `end-1`.
+
+### While loop
+
+The `while` loop repeats infinitely until the while condition is false. 
+
+The structure of a `while` loop is:
+
+```python
+while (some_condition):
+    do_something
+```
+
+If the condition remains true forever, the loop will run forever. To get around this, we need some way of making `some_condition` false. This usually happens during the loop process.
+
+Let's look at an example:
+
+```python
+count =0
+while count<3:
+    print("Hello!")
+print("Bye!")
+```
+
+What do you think this program's output will be?
+
+Well, if we run it, we find that the program prints "Hello!" forever and never prints "Bye!".
+
+So how can we fix this? By making the loop condition false:
+
+```python
+count =0
+while count<3:
+    print("Hello!")
+    count += 1     //increases the value of count every iteraton of the loop
+print("Bye!")
+```

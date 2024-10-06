@@ -4,6 +4,12 @@ from time import sleep
 def main():
     # take input from user
     dda = input('please enter an operation. (add, sub, mult, div, per, exp, exit):\t')
+    if dda == "exit":
+        print("Exiting...")
+        sleep(1.5)
+        print("Exited sucsesfully")
+        sleep(1.5)
+        exit() 
     num1 = float(input('please enter a number:\t'))
     num2 = float(input('please enter another number:\t'))
     # pass input to mode
@@ -12,7 +18,8 @@ def main():
     
     return 0
 
-def mode(function, x, y): 
+def mode(function, x, y):
+ 
     if function == 'add':
         return add(x, y)
     elif function == 'exp':
